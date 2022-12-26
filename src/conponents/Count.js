@@ -1,4 +1,4 @@
-
+import React from 'react';
 const Count = ({arrr, increment,decrement, reset }) => {
     
     return (
