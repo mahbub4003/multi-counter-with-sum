@@ -1,10 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cart{
+  background-color: #838891;
+  display: inline-block;
+  padding: 10px;
+  margin: 20px;
+}
+.value{
+  color: #fff;
+  font-size: 30px;
+  background-color: #282c34;
+  padding: 5px;
+  border-radius: 50%;
+}
+.btn{
+  padding: 10px;
+  margin: 15px 10px;
+}
+.add-btn{
+  width: 15%;
+  background-color: #61dafb;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+.add-btn:hover{
+  width: 20%;
+  background-color: #fb61fb;
+  color: white;
+  transition: calc();
+  animation-duration:1s;
 }
 
 @media (prefers-reduced-motion: no-preference) {
